@@ -79,19 +79,11 @@ int main(void)
                
             }else
             {
-                //TODO debug only, remove bellow
-                // std::cout << "bet is not bigger than balance";
-                // std::system("PAUSE");
-                // cout <<"\n bet "<<bet;
-                // cout <<"\n balance " <<balance;
+                
                 break;
             }
         }
         lucky_number = 0;
-        // std::cout << "\n Enter your lucky number to bet between 1 to 12 : " << " ";
-        // std::cin.clear();
-        // std::cin.ignore(256,'\n');
-        // std::cin >> lucky_number;
         std::cout << "\n lucky_number:" << lucky_number; 
 
         do
